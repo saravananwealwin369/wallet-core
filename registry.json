@@ -500,6 +500,42 @@
       "documentation": "https://eth.wiki/json-rpc/API"
     }
   },
+
+
+  {
+    "id": "UPRO",
+    "name": "Ultra Pro Mainnet",
+    "coinId": 10003468,
+    "symbol": "UPRO",
+    "decimals": 18,
+    "blockchain": "UPRO",
+    "derivation": [
+      {
+        "path": "m/44'/60'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "chainId": "1",
+    "addressHasher": "keccak256",
+    "explorer": {
+      "url": "https://ultraproscan.io",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0xba8914331d098b903162ab77d8538b8329a644076ee5aec501d1f43ebc8c1011",
+      "sampleAccount": "0xCF6378414e6105B09c468aeEA36c7F2651fCF5E4"
+    },
+    "info": {
+      "url": "https://ultrapro.info/",
+      "source": "https://github.com/ultraproblockchain/UPRONetwork",
+      "rpc": "https://mainnet-rpc.ultraproscan.io/",
+      "documentation": "https://eth.wiki/json-rpc/API"
+    }
+  },
+
+
+
+
   {
     "id": "classic",
     "name": "Ethereum Classic",
